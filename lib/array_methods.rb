@@ -43,8 +43,15 @@ end
 
 
 
-def our_function(parameter_one)
+def our_function(string_parameter, array)
+  string_parameter = "some string"
+  array =  ["of", "words"]
   # does something
 end
 
-our_function
+our_function("some string", ["of", "words"])
+
+
+def add_five(number)
+  number + 5
+end
