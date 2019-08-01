@@ -60,6 +60,8 @@ def does_crazy_stuff_with_two_numbers(num1, num2)
 end
 
 def add_pre_prefix(word)
-  "pre" + word
+  puts "pre" + word
 end
+
+add_pre_prefix("historic")
 
