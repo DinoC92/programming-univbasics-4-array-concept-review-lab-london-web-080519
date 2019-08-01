@@ -57,7 +57,7 @@ def add_five(number)
 end
 
 def does_crazy_stuff_with_two_numbers(num1, num2)
-  num1 + (num2 * num2) / 10
+  
 end
 
 add_five()
