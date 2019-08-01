@@ -7,17 +7,20 @@ def find_element_index(array, value_to_find)
     index += 1
   end
 end
-find_max_value
+find_max_value([1,2,1,3,4,3,5,4,3,2,1])
 
 def find_max_value(array)
   max = array.first
-  # max = 1
+  # => max = 1
   counter = 1 
   while counter < array.length do
+    # 2 < 11
     if array[counter] > max
-      # = array[1] > 1
-      # = 2 > 1
+      # => array[2] > 2
+      # => 1 > 2
       max = array[counter]
+      # => max = array[1]
+      # => max = 2
     end
     counter += 1
   end
