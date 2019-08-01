@@ -63,5 +63,5 @@ end
 
 add_pre_prefix("historic")
 add_pre_prefix("dinner")
-add_pre_prefix("school")
+add_pre_prefix
 
