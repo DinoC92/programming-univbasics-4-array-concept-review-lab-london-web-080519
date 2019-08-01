@@ -43,17 +43,21 @@ end
 
 
 
-def our_function(string_parameter, array)
-  string_parameter = "some string"
-  array =  ["of", "words"]
-  # does something
-end
+# def our_function(string_parameter, array)
+#   string_parameter = "some string"
+#   array =  ["of", "words"]
+#   # does something
+# end
 
-our_function("some string", ["of", "words"])
+# our_function("some string", ["of", "words"])
 
 
 def add_five(number)
   number + 5
+end
+
+def add_two_numbers(num1, num2)
+  num1 + num2
 end
 
 add_five()
