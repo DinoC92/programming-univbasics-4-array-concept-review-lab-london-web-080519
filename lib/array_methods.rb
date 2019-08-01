@@ -55,3 +55,5 @@ our_function("some string", ["of", "words"])
 def add_five(number)
   number + 5
 end
+
+add_five()
