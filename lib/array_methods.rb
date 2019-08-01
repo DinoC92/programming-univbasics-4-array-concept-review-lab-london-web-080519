@@ -7,10 +7,11 @@ def find_element_index(array, value_to_find)
     index += 1
   end
 end
-find_max_value([1,2,1,3,4,3,5,4,3,2,1])
-find_max_value([1,2,1])
+find_max_value([1,2,3], "string")
+find_max_value
 
-def find_max_value(array)
+def find_max_value(one_arg, two_arg)
+  array = [1,2,1,3,4,3,5,4,3,2,1]
   max = array.first
   # => max = 1
   counter = 1 
@@ -39,3 +40,11 @@ def find_min_value(array)
   end
   return min
 end 
+
+
+
+def our_function(parameter_one)
+  # does something
+end
+
+our_function
